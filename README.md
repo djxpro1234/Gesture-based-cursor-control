@@ -17,7 +17,13 @@ Control your mouse cursor using hand gestures via webcam.
 
 ```bash
 python -m venv .venv
+
+# macOS/Linux
 source .venv/bin/activate
+
+# Windows
+.venv\Scripts\activate
+
 pip install -r requirements.txt
 ```
 
@@ -35,4 +41,4 @@ Press `q` to quit.
 
 - Python 3.10+
 - Webcam
-- macOS (uses PyAutoGUI for cursor control)
+- macOS / Windows / Linux
